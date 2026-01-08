@@ -1508,7 +1508,7 @@ function Library:AddDraggableButton(Text: string, Func, ExcludeScaling: boolean?
         Parent = ScreenGui,
     })
     New("UICorner", {
-        CornerRadius = UDim.new(0, Library.CornerRadius),
+        CornerRadius = UDim.new(0, 8),
         Parent = Button,
     })
     if not ExcludeScaling then
