@@ -5909,7 +5909,7 @@ function Library:CreateWindow(WindowInfo)
             Parent = ScreenGui,
         })
         New("UICorner", {
-            CornerRadius = UDim.new(0, WindowInfo.CornerRadius),
+            CornerRadius = UDim.new(0, 8),
             Parent = MainFrame,
         })
         table.insert(
