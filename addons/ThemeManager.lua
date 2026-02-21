@@ -281,7 +281,7 @@ do
 
         else
             FinalTheme["FontFace"] = "Code"
-            LibraryScheme["Font"] = Font.fromEnum(Enum.Font.Code)
+            LibraryScheme["Font"] = Font.fromEnum(Enum.Font.RobotoMono)
         end
 
         for _, field in { "RedColor", "DarkColor", "WhiteColor" } do
